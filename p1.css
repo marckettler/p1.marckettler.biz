@@ -42,7 +42,11 @@ header {
 .content {
 	width: 85%;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
-	text-align: center;
+	text-align: left;
+}
+img {
+	float: left;
+	padding: 10px;
 }
 /* ~~ The footer ~~ */
 footer {
