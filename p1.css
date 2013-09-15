@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* ~~ CSS was added by Dreamweaver CS5.5 and edited by Marc Kettler. I kept what I kept because I liked the comments and reasons it was added~~ */
+/* ~~ CSS was added by Dreamweaver CS5.5 and modified by Marc Kettler. I have never used Dreamweaver before but it was on my wife's laptop so I just went with it.~~ */
 
 main {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
@@ -14,21 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-right: 15px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
 }
-a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-	border: none;
-}
-/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
-a:link {
-	color: #42413C;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
-}
-a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
-	text-decoration: none;
-}
+
 /* ~~ This container surrounds all other blocks ~~ */
 .container {
 	width: 98%;
@@ -46,7 +32,7 @@ header {
 }
 img {
 	float: left;
-	padding: 10px;
+	padding-right: 10px;
 }
 /* ~~ The footer ~~ */
 footer {
